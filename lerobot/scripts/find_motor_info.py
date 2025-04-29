@@ -31,8 +31,10 @@ from lerobot.common.robot_devices.motors.configs import FeetechMotorsBusConfig
 from lerobot.common.robot_devices.motors.feetech import FeetechMotorsBus
 
 
-DEFAULT_PORT = "/dev/tty.usbmodem58FA0923331"
-
+#DEFAULT_PORT = "/dev/tty.usbmodem58FA0923331"
+#DEFAULT_PORT = "/dev/tty.usbmodem58FA1014141"
+DEFAULT_PORT = "/dev/tty.usbmodem58FA0922561"
+#DEFAULT_PORT = "/dev/tty.usbmodem58FA1015441"
 
 def read_motor_info(motor_bus, motor_id):
     """Read and return information for a specific motor ID."""
